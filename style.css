@@ -1,0 +1,60 @@
+@import './assets/css/categories.css';
+@import './assets/css/footer.css';
+@import './assets/css/shipping.css';
+@import './assets/css/slider.css';
+@import './assets/css/special-offer.css';
+@import './assets/css/top-nav.css';
+
+@font-face{
+    font-family: vazir-medium;
+    src: url('./assets/font/Vazir-Medium.eot') format('eot'),
+    url('./assets/font/Vazir-Medium.woff') format('woff'),
+    url('./assets/font/Vazir-Medium.woff2') format('woff');
+    font-weight: 700;
+    font-style:normal
+ }
+*,body{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:vazir-medium ;
+}
+body{
+    direction: rtl;
+}
+a{
+  text-decoration: none!important;
+}
+li,ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.input-group button a{
+color: antiquewhite;
+text-decoration: none;
+}
+.shop-card{
+    background-color: transparent!important;
+}
+@media (max-width:576px){
+    .mt-csm-3{
+        margin-top: 1rem!important;
+    }
+}
+@media (max-width:991px){
+    .mt-clg-3{
+        margin-top: 2rem!important;
+    }
+}
+@media (min-width:1200px){
+    .container 
+    .container-sm
+    .container-md 
+    .container-lg
+    .container-xl {
+        max-width: 1340px!important;
+    }
+}
+
+

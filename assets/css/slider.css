@@ -1,0 +1,24 @@
+.visually-hidden{
+    padding: 5px;
+    color: rgb(246, 255, 0)
+    
+}
+.carousel-control-prev-icon{
+background-color: gold!important
+
+}
+.custom-col-lg-3{
+    flex: 0 0 18.36%;
+    max-width: 18.36%;
+
+}
+.arousel-control-next-icon{
+    background-color: gold!important  
+}
+@media screen and (max-width:991px){
+    .custom-col-lg-3{
+flex:0 0 50%;
+max-width:50%; 
+    }
+
+}

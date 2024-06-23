@@ -1,0 +1,16 @@
+.cat-desc p{
+    font-size: 13px;
+
+}
+.cat-desc img{
+    width: 100px;
+}
+section .cat-hover:hover{
+    box-shadow: 0 0 1px 1px #575656;
+}
+section .cat-desc p{
+    color: black;
+}
+section .cat-desc:hover p{
+    color: blueviolet;
+}

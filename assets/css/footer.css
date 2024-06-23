@@ -1,0 +1,29 @@
+.main-section-footer h5{
+    font-size: 15px;
+    border-bottom: 1px solid;
+    border-color: rgb(246, 163, 163);
+    padding-bottom: 20px;
+    display: inline-flex;
+}
+.footer-nav-custom li a{
+    color: rgb(211, 115, 50);
+    transition: .5s ease;
+}
+.footer-nav-custom li a:hover{
+    color: rgb(241, 160, 160);
+}
+.footer-icon a i{
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s ease;
+    padding-left: 10px;
+}
+.footer-icon a i :hover{
+    color: burlywood; 
+}
+.footer-pad{
+    padding-bottom: 100px;
+    margin-top: 200px;
+}

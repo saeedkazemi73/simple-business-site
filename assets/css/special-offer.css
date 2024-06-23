@@ -1,0 +1,37 @@
+.custom-nav-tabs .nav-link{
+border: none;
+background-color: #ffffff;
+color: rgb(88, 86, 86);
+}
+.custom-nav-tabs .nav-link.active, .custom-nav-tabs .nav-link .nav-item.show{
+    color: chocolate;
+    background-color: transparent;
+    border-color: transparent;
+}
+.custom-nav-tabs .nav-link:hover, .custom-nav-tabs .nav-link:focus{
+    border-color: transparent;
+ 
+}
+.offer-details a{
+font-size: 20px;
+}
+.offer-details .offer-rating{
+    color: goldenrod;
+}
+.offer-details .offer-price s{
+    color: tomato;
+font-size: 16px;
+}
+div .hedphone:hover{
+    scale: 1.252;
+    rotate: 58deg;
+}
+div .hedphone{
+    transition: all .5s ease;
+}
+div .offer-details{
+    margin-right: 50px;
+}
+.custom-nav-tabs-mt{
+    margin-top: 20px;
+}

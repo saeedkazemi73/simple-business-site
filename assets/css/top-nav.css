@@ -1,0 +1,19 @@
+.bg-top-nav{
+    background-color: rgb(45, 67, 67);
+    color: rgb(239, 216, 216);
+}
+.custom-top-nav{
+    padding: 10px;
+}
+.custom-top-nav, .bg-top-nav p{
+    font-size: 14px;
+}
+.custom-btn-font-size{
+    font-size: 14px!important
+}
+.custom-navbar-nav{
+    font-size: 15px;
+}
+.input-top-nav-search::-webkit-input-placeholder{
+    font-size: 14px;
+}
